@@ -14,7 +14,9 @@
 		E9B59C53252388AA0010BAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B59C52252388AA0010BAA6 /* Assets.xcassets */; };
 		E9B59C56252388AA0010BAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B59C54252388AA0010BAA6 /* LaunchScreen.storyboard */; };
 		E9B59C61252388AA0010BAA6 /* MementoPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B59C60252388AA0010BAA6 /* MementoPOCTests.swift */; };
-		E9B59C6D2523C58B0010BAA6 /* MementoPOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B59C6C2523C58B0010BAA6 /* MementoPOC.swift */; };
+		E9B59C6D2523C58B0010BAA6 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B59C6C2523C58B0010BAA6 /* Memento.swift */; };
+		E9B59C6F2523DB2B0010BAA6 /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B59C6E2523DB2B0010BAA6 /* Originator.swift */; };
+		E9B59C712523DB650010BAA6 /* CareTaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B59C702523DB650010BAA6 /* CareTaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,9 @@
 		E9B59C5C252388AA0010BAA6 /* MementoPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B59C60252388AA0010BAA6 /* MementoPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPOCTests.swift; sourceTree = "<group>"; };
 		E9B59C62252388AA0010BAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9B59C6C2523C58B0010BAA6 /* MementoPOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPOC.swift; sourceTree = "<group>"; };
+		E9B59C6C2523C58B0010BAA6 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		E9B59C6E2523DB2B0010BAA6 /* Originator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
+		E9B59C702523DB650010BAA6 /* CareTaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,9 @@
 		E9B59C6B252388B60010BAA6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				E9B59C6C2523C58B0010BAA6 /* MementoPOC.swift */,
+				E9B59C702523DB650010BAA6 /* CareTaker.swift */,
+				E9B59C6E2523DB2B0010BAA6 /* Originator.swift */,
+				E9B59C6C2523C58B0010BAA6 /* Memento.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			files = (
 				E9B59C4E252388A70010BAA6 /* ViewController.swift in Sources */,
 				E9B59C4A252388A70010BAA6 /* AppDelegate.swift in Sources */,
-				E9B59C6D2523C58B0010BAA6 /* MementoPOC.swift in Sources */,
+				E9B59C712523DB650010BAA6 /* CareTaker.swift in Sources */,
+				E9B59C6F2523DB2B0010BAA6 /* Originator.swift in Sources */,
+				E9B59C6D2523C58B0010BAA6 /* Memento.swift in Sources */,
 				E9B59C4C252388A70010BAA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
