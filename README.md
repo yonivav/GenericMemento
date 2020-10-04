@@ -10,7 +10,7 @@ In this generic memento you can store and load any type of state, without the ne
 # How To Use It
 1. Add the Caretaker.swift, Originator.swift and Memento.swift to your project 
 2. when you want to save a state, create a new Originator with this state:
-Originator(state: <#state-to-save#>)
+Originator(state: state-to-save)
 3. when you want to update a state, use update method:
-originator.updateState(<#new-state#>)
+originator.updateState(new-state)
 4. The CareTaker can backup, undo and show the history
