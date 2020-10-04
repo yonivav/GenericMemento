@@ -31,5 +31,7 @@ class ConcreteMemento<StateType>: MementoProtocol {
     }
 
     /// The rest of the methods are used by the Caretaker to display metadata.
-    var name: String { return "\(type(of: state)) + " + date.description.suffix(14).prefix(8) }
+    var name: String {
+        return "\(type(of: state)) + " + date.description.suffix(14).prefix(8)
+    }
 }

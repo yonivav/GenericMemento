@@ -30,13 +30,16 @@ class Caretaker<StateType>: CaretakerProtocol {
     }
 
     func backup() {
-        print("\nCaretaker: Saving Originator's state...\n")
+        print("Caretaker: Saving Originator's state...\n")
         mementos.append(originator.save())
     }
 
     func undo() {
 
-        guard !mementos.isEmpty else { return }
+        guard !mementos.isEmpty else {
+            print("Caretaker: can't undo. no mementos left...\n")
+            return
+        }
         let removedMemento = mementos.removeLast()
 
         print("Caretaker: Restoring state to: " + removedMemento.name)
@@ -45,6 +48,6 @@ class Caretaker<StateType>: CaretakerProtocol {
 
     func showHistory() {
         print("Caretaker: Here's the list of mementos:\n")
-        mementos.forEach({ print($0.name) })
+        mementos.forEach { print($0.name) }
     }
 }

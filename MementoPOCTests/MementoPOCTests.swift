@@ -11,7 +11,7 @@ import XCTest
 
 class MementoPOCTests: XCTestCase {
 
-    func testMementoString() {
+    func testStringMemento() {
 
         let originator = Originator(state: "Super-duper-super-puper-super.")
         let caretaker = Caretaker(originator: originator)
@@ -35,7 +35,7 @@ class MementoPOCTests: XCTestCase {
         caretaker.undo()
     }
 
-    func testMementoInt() {
+    func testIntMemento() {
 
         let originator = Originator(state: 0)
         let caretaker = Caretaker(originator: originator)
@@ -59,7 +59,7 @@ class MementoPOCTests: XCTestCase {
         caretaker.undo()
     }
     
-    func testMementoUserClass() {
+    func testClassMemento() {
 
         class User {
             let id: Int
@@ -98,7 +98,7 @@ class MementoPOCTests: XCTestCase {
         caretaker.undo()
     }
     
-    func testMementoUserStruct() {
+    func testCustomStructMemento() {
 
         struct User {
             let id: Int
