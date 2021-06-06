@@ -15,4 +15,4 @@ Originator(state: state-to-save)
 originator.updateState(new-state)
 4. The CareTaker can backup, undo and show the history
 
-* Please check the [MementoPOCTests.swift](https://github.com/yonivav/GenericMemento/tree/master/MementoPOCTests) file to see an example of it
+* Please check the [MementoPOCTests.swift](https://github.com/yonivav/GenericMemento/blob/master/MementoPOCTests/MementoPOCTests.swift) file to see an example of it
